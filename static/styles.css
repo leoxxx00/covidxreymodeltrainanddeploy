@@ -1,0 +1,36 @@
+body {
+    background-color: #121212;
+    font-family: 'Arial', sans-serif;
+    color: #e0e0e0;
+}
+
+h1, p.lead {
+    color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border-color: #1a73e8;
+}
+
+.btn-secondary {
+    background-color: #5f6368;
+    border-color: #5f6368;
+}
+
+.img-thumbnail {
+    background-color: #333;
+    border: 1px solid #444;
+}
+
+.form-control-file {
+    color: #ffffff;
+}
+
+a {
+    color: #1a73e8;
+}
+
+a:hover {
+    color: #bb86fc;
+}
