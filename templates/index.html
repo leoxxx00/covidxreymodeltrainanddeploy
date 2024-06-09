@@ -2,23 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COVID-19 Detection</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
-<body class="bg-dark text-light">
-    <div class="container">
-        <h1 class="text-center my-5">COVID-19 Detection from X-ray Images</h1>
-        <form method="post" enctype="multipart/form-data" class="text-center">
-            <div class="form-group">
-                <input type="file" name="file" class="form-control-file btn btn-outline-light">
-            </div>
-            <button type="submit" class="btn btn-primary">Upload</button>
-        </form>
-        <div class="text-center mt-3">
-            <a href="{{ url_for('history') }}" class="btn btn-secondary">View Training History</a>
-        </div>
-    </div>
+<body>
+    <h1>Upload Chest X-Ray Image</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="Upload">
+    </form>
 </body>
 </html>
